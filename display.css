@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    background-color: #f4c531;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 550px;
+    height: 575px;
+    position: absolute;
+    top: 8%;
+    left:32%;
+    border-radius: 10px;
+}
+
+.inputbox{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    top: 3%;
+    grid-column-gap: 15px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    padding-right: 2px;
+    border-radius: 0%;
+    border-style: double;
+    border-top: #ffffff;
+    border-left: #ffffff;
+    border-right: #ffffff;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-stretch: expanded;
+    font-size-adjust: inherit;
+}
+
+.msg{
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-stretch: expanded;
+    font-size-adjust: inherit;
+}
+.reciepe_tech p{
+    display: block;
+    width: 350px;
+    height: 400px;
+    overflow: auto;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-stretch: expanded;
+    font-size-adjust: inherit;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: #f4c531;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 45%;
+    position: relative;
+    border-radius: 30px;
+}
+
+img{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    top: -70px;
+    left: 350px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.itemname {
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    width: 300px;
+    top: 50px;
+    left: 50px;
+}
+
+.itemname a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.itemname a:hover {
+    text-decoration: underline;
+}
+
+.ingred{
+    position: relative;
+    top: -80px;
+    left:30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-stretch: expanded;
+    font-size-adjust: inherit;
+}
+li{
+    list-style-type:circle;
+}
+.vr{
+    position: absolute;
+    top: 89%;
+    left: 70%;
+}
+.cr{
+    position: absolute;
+    top: 89%;
+    left: 40%;
+}
